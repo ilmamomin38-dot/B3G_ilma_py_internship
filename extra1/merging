@@ -1,0 +1,8 @@
+defaults = {"theme": "light", "language": "en"}
+user_settings = {"language": "hi", "notifications": True}
+
+merged = {**defaults, **user_settings}
+print(merged)
+
+defaults.update(user_settings)
+print(defaults)
