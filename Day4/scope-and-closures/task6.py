@@ -1,9 +1,13 @@
 def make_validator(min_value):
     def validata(num):
-        return validata
+        return num>=min_value
+    return validata
 
-validator10=make_validator(10)
-validator50=make_validator(50)
-print(validator10(5))
-print(validator10(15))
-print(validator10(20))
+validator_10=make_validator(10)
+validator_50=make_validator(50)
+print(validator_10(5))
+print(validator_10(15))
+print(validator_10(20))
+print(validator_50(20))
+print(validator_50(50))
+print(validator_50(34))
