@@ -3,9 +3,9 @@ import time
 # Decorator to measure execution time
 def timer(func):
     def wrapper():
-        start = time.time()      # Start time
-        result = func()          # Call the original function
-        end = time.time()        # End time
+        start = time.time()      
+        result = func()          
+        end = time.time()       
         print(f"Execution time: {end - start:.6f} seconds")
         return result
     return wrapper
