@@ -9,6 +9,7 @@ def process_order(order):
         print(f"Item: {item}")
         print(f"Price: ${price}")
     finally:
+        
         print("Processing complete")
 
 process_order({"item": "Laptop", "price": 999.99})
