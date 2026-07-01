@@ -1,1 +1,0 @@
-print("welocm to python programming")
