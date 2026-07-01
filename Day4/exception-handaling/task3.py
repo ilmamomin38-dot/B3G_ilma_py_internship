@@ -12,7 +12,7 @@ def register_user(age):
 
 try:
     print(register_user(25))
-    print(register_user(5))
+    print(register_user(-5))
 except InvalidAgeError as e:
     print(e)
 
